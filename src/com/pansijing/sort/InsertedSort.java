@@ -14,10 +14,7 @@ public class InsertedSort extends BaseSort implements Sort{
                 exch(a, j, j-1);
             }
 
-            System.out.println("\n===========================");
-            for (int k = 0; k < a.length; k++) {
-                System.out.print(a[k]);
-            }
+            printData(a);
         }
     }
 }

@@ -36,4 +36,11 @@ public class BaseSort {
 
         return true;
     }
+
+    public void printData(Comparable[] a) {
+        System.out.println("\n===========================");
+        for (int k = 0; k < a.length; k++) {
+            System.out.print(a[k]);
+        }
+    }
 }

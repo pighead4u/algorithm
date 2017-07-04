@@ -17,10 +17,8 @@ public class SelectedSort extends BaseSort  implements Sort{
             }
 
             exch(a, i, min);
-            System.out.println("\n===========================" + i + "================================");
-            for (int k = 0; k < a.length; k++) {
-                System.out.print(a[k]);
-            }
+
+            printData(a);
         }
     }
 }
